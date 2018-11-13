@@ -1,0 +1,408 @@
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+@media screen and (max-width:480px){
+    .h1{
+    position: relative;
+    	padding: 0.3em;
+    }
+    .h1:after {
+    content: '';
+    position: absolute;
+    left: 0;
+      bottom: 0;
+    width: 100%;
+      height: 7px;
+      background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
+    }
+  h3{
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+  }
+  h5{
+    font-family: 'Oswald', sans-serif;
+  }
+  p{
+    font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  }
+
+  .logo{
+    font-size: 54px;
+    }
+    .eyechatch{
+    background-image:url("14361B33-6118-4B8D-97D2-A81B69EE49FF.JPG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    font-family: serif;
+    color: white;
+  }
+   .myhistory{
+     padding-bottom: 20px;
+     background-color: rgba(238,232,170,0.5);
+     border-radius: 15px;
+   }
+    .about{
+      text-align: center;
+      margin-top:15px;
+    }
+
+    .me{
+    	display: inline-block;
+      width:50%;
+      height: auto;
+      padding-top: 20px;
+      border-radius: 15px;
+    }
+   .haruto{
+     padding:15px 15px;
+     background-color: #5BDBE7;
+     border-radius: 15px;
+     color:white;
+   }
+   .snsicon{
+     width: 33%;
+     font-size: 60px;
+     color:#fff;
+   }
+   .service_0{
+     padding-top:30px;
+   }
+
+   /*skills*/
+   .skills{
+     text-align: center;
+     padding-top:30px;
+   }
+   .icon{
+     margin: 20px;
+   	 width: 80%;
+     font-size: 60px;
+     color:#fff;
+   }
+   .wordpress{
+     padding:10px 20px;
+     background-color: #FAC148;
+     color: white;
+     border-radius: 15px 15px 0 0;
+   }
+   .HTML{
+     background-color: #1B1B1B;
+     color: white;
+     padding:10px 20px;
+   }
+   .Illustrator{
+     background-color: #FA4A34;
+     padding:10px 20px;
+     color: white;
+     border-radius:0 0 15px 15px;
+   }
+   /*skills*/
+   .photo1{
+     display: none;
+   }
+   .photo2{
+     display: none;
+   }
+   .sponly1{
+     background-image: url("webdesign-3411373_1920.jpg");
+     background-size: cover;
+     margin-bottom: 20px;
+   }
+   .spopacity{
+     height:100%;
+     background: rgba(255, 255, 255, 0.7);
+   }
+   .sponly2{
+     background-image: url("deer-3275594_1920.jpg");
+     background-size: cover;
+     background-position: center center;
+     align-items: center;
+     justify-content: center;
+   }
+   .spopacity{
+     height:100%;
+     background: rgba(255, 255, 255, 0.7);
+   }
+   .se{
+     font-weight: bold;
+   }
+   .service_1 p{
+     padding-left: 20px;
+     padding-top: 5px;
+   }
+   .number{
+     font-size: 32px;
+   }
+   .servicenum{
+     font-size: 24px;
+   }
+   .service_2 p{
+     padding-left: 20px;
+     padding-top: 5px;
+   }
+
+   .mailicon{
+     margin: 20px;
+      width: 80%;
+     font-size: 60px;
+     color:#000000;
+   }
+   .btn{
+    background-color:rgba(255,32,105,1);
+    margin:20px 100px;
+   }
+
+
+   .example{
+     margin-bottom: 20px;
+   }
+   .contact{
+     padding-top: 20px;
+     background-color: rgba(238,232,170,0.5);
+     border-radius: 15px;
+   }
+   .btn:hover {
+     background-color:rgba(255,32,105,0.5);
+   }
+  }
+/*PCサイズ*/
+@media screen and (min-width:480px){
+h3{
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+h5{
+  font-family: 'Oswald', sans-serif;
+}
+p{
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.a{
+  padding-top: 20PX;
+}
+.button{
+  float:right;
+}
+.eyechatch{
+  max-width: auto;
+  height:550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  font-family: serif;
+}
+.eyechatch h1{
+  background-color: white;
+  border-radius: 15px;
+}
+.myself{
+    background-image: url("twilight-505849_1920.jpg");
+    max-width: auto;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 100px;
+}
+br{
+  padding:120px;
+}
+.about{
+  text-align: center;
+  padding:30px 0px;
+  color:white;
+}
+.aboutmargin{
+  padding-bottom: 120px;
+}
+.myhistory{
+  background-color:rgb(171,206,216,0.5);
+  padding:60px 50px 60px 0;
+  border-radius:15px;
+}
+.me{
+	display: inline-block;
+  width:80%;
+  height: auto;
+  padding-top: 20px;
+}
+.haruto{
+  padding:15px 15px;
+  background-color: #5BDBE7;
+  border-radius: 15px;
+  color:white;
+}
+.icon{
+  margin: 20px;
+	width: 80%;
+  font-size: 60px;
+  color:#fff;
+}
+.skills{
+  background-color: #5BDBE7;
+  padding:50px 0px;
+  color:white;
+}
+.wordpress{
+  padding:10px 20px;
+  background-color: #FAC148;
+  margin:20px 10px 0 10px;
+  color: white;
+}
+.HTML{
+  background-color: #1B1B1B;
+  color: white;
+  padding:10px 20px;
+  margin:0px 10px 20px 10px;
+}
+.Illustrator{
+  background-color: #FA4A34;
+  padding:10px 20px;
+  margin:20px 10px 0 10px;
+  color: white;
+}
+.service_0{
+  background-color: #ffffff;
+  padding:50px 0px;
+}
+.service_1{
+  background-color: #ffffff;
+  padding: 50px 40px;
+}
+.example{
+  background-color: #f3f3f3;
+    padding: 10px 40px;
+    margin:30px 30px 80px 30px;
+}
+.service_2{
+  background-color: #ffffff;
+  padding: 20px 0 50px 50px;;
+}
+.contact{
+  background-color: #5BDBE7;
+  padding:50px 0px;
+}
+.underline{
+  width: 60px;
+  border-bottom: 3px solid white;
+  padding-bottom: 10px;
+}
+.number{
+  font-size:95px;
+}
+.servicenum{
+  padding-bottom: 5px;
+  border-bottom: solid 3px red;
+  font-size:24px;
+  font-family: 'Oswald''Yu Gothic'sans-serif;
+  font-weight:bold;
+}
+.btn{
+ background-color:rgba(255,32,105,1);
+ color: white;
+}
+
+.btn:hover {
+  background-color:rgba(255,32,105,0.5);
+}
+.se{
+ color:#FF2069;
+ font-family: 'Oswald', sans-serif;
+}
+.photo1{
+  width:120%;
+  height: auto;
+  padding:100px 50px 0 50px;
+}
+.photo2{
+  width:95%;
+  height: auto;
+  padding-top: 60px;
+}
+.bana{
+  margin-left: 50px;
+}
+.h1{
+  font-family: 'Oswald', sans-serif;
+}
+.ex{
+  background-color: white;
+}
+.contact{
+  color:white;
+}
+.ask{
+  color:white;
+}
+.mailicon{
+  font-size: 48px;
+}
+/*ネオン*/
+@import url(//fonts.googleapis.com/css?family=Vibur);
+html,body{
+  height:100%
+}
+body {
+  background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg)  center no-repeat;
+  background-size:cover;
+  margin:0
+}
+.logo {
+  text-align: center;
+  width: 65%;
+  height: 250px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.logo b{
+  font: 100 15vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #44c6ff, 0 0 0.5em #44c6ff, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.logo b span{
+  animation: blink linear infinite 2s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}}
